@@ -1,20 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 359px) {
     body, html{
-        /* background-image: url("./assets/back.jpg"); */
-        height: 101%;
-        margin: -3px;
-        color: #B3C7D6FF;
-        background: rgb(248, 248, 248);
+        
+        height: 100%;
+        
+        
+        color: #f5deb2;
+        background: #1c1c1bff;
         
         
     }
     body{
-        background: url('./assets/drawing-2.svg') no-repeat;
+        
+        background: url('./assets/drawing.svg') no-repeat;
         background-size: cover;
-        /* padding-bottom: 5000px; */
+        
     }
 }
+
+
+
 
