@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark navbar-expand-lg ">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand"  [routerLink]="['/home']">
 
     <img src="../assets/sahil_logo2.png" width="60" height="60" class="d-inline-block align-top" alt="">
 
@@ -16,10 +16,12 @@
 
     <form class="form-inline navbar-right">
       <button class="btn btn-outline-light" type="button" routerLink="/home">Home</button>
-      <button class="btn btn-outline-light" type="button">Features</button>
+      <button class="btn btn-outline-light" type="button" routerLink="/skills">Skills</button>
+      <button class="btn btn-outline-light" type="button" routerLink="/projects"> Projects </button>
       <button class="btn btn-outline-light" type="button" routerLink="/about_me"> About </button>
-      <a class="btn btn-outline-light" type="button" href="../assets/sahil-Resume.pdf" download="sahil-Resume.pdf"> Download Resume </a>
+      <a class="btn btn-outline-light resume_btn" type="button" href="../assets/sahil-Resume.pdf" download="sahil-Resume.pdf"> Download Resume </a>
     </form>
+
 
 
   </div>
@@ -31,27 +33,20 @@
 <router-outlet></router-outlet>
 
 
-<!-- 
-<div class="d-flex justify-content-center">
-  <a href="#" target="_blank"><i class="fa fa-facebook fa-2x "></i></a>
-  <a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-  <a href="#" target="_blank"><i class="fa fa-linkedin  fa-2x"></i></a>
-  <a href="#" target="_blank"><i class="fa fa-instagram fa-5x"></i></a>
-  <a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-</div> -->
 
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <div class="container">
   <div class="row justify-content-sm-center" >
     
-    <div class="col-12 col-sm-10 text-center">
-      <a href="https://www.facebook.com/sahil.ahir.54540218/" target="_blank"><i class="fa fa-5x fa-facebook-square fb1 left"></i></a>
-      <a href="" target="_blank"><i class="fa fa-5x fa-envelope-square gm1 left"></i></a>
-      <a href="https://github.com/Sahilahir" target="_blank"><i class="fa fa-5x fa-github-square gh1 left"></i></a>
-      <a href="https://www.instagram.com/yourstruly_sahil/" target="_blank"><i class="fa fa-5x fa-instagram in1 left"></i></a>
-      <a href="" target="_blank"><i class="fa fa-5x fa-linkedin-square li1 left" ></i></a>
+    <div class="col-12 text-center">
+      <a href="https://www.facebook.com/sahil.ahir.54540218/" target="_blank" class="left"><i class="fa fa-5x fa-facebook-square fb1"></i></a>
+      <a href="mailto:sahilahir333@gmail.com" target="_blank" class="left"><i class="fa fa-5x fa-envelope-square gm1 left"></i></a>
+      <a href="https://github.com/Sahilahir" target="_blank" class="left"><i class="fa fa-5x fa-github-square gh1 left"></i></a>
+      <a href="https://www.instagram.com/yourstruly_sahil/" target="_blank" class="left"><i class="fa fa-5x fa-instagram in1 left"></i></a>
+      <a href="http://linkedin.com/in/sahil-ahir-53783b12b" target="_blank" class="left"><i class="fa fa-5x fa-linkedin-square li1 left" ></i></a>
     </div>
     
   </div>
   
 </div>
+
+<br><br>

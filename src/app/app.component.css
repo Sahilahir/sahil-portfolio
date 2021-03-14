@@ -36,64 +36,11 @@ button{
     transition:800ms ease all;
   }
 
-/* .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+  .resume_btn:hover{
+    background-color: black;
+    color: whitesmoke;
+  }
   
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-
-.fa.fa-instagram {
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-} */
-
-/* 
-*{
-  box-sizing: border-box;
-}
-body {
-  text-align: center;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-i {
-  padding: 0px 10px;
-} */
 
 
 .fb1 {
@@ -160,7 +107,13 @@ i {
   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
   transform: translate(0, -5);
 }
-
-.left{
-  margin-left: 80px;
+@media only screen and (min-width: 768px) {
+  .left{
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .left{
+    margin-left: 10px;
+  }
 }

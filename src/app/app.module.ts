@@ -13,12 +13,16 @@ import { AppComponent } from './app.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './home/home.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutmeComponent,
-    HomeComponent
+    HomeComponent,
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
