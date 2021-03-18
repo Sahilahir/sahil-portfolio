@@ -16,10 +16,10 @@
 
     <form class="form-inline navbar-right">
       <button class="btn btn-outline-light" type="button" routerLink="/home">Home</button>
-      <button class="btn btn-outline-light" type="button" routerLink="/skills">Skills</button>
       <button class="btn btn-outline-light" type="button" routerLink="/projects"> Projects </button>
       <button class="btn btn-outline-light" type="button" routerLink="/about_me"> About </button>
-      <a class="btn btn-outline-light resume_btn" type="button" href="../assets/sahil-Resume.pdf" download="sahil-Resume.pdf"> Download Resume </a>
+      <button class="btn btn-outline-light" type="button" (click)="downloadFile()"> Download Resume </button>
+      
     </form>
 
 
