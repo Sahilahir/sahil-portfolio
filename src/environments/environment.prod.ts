@@ -7,6 +7,6 @@ export const environment = {
     storageBucket: "sahil-portfolio-cbc6e.appspot.com",
     messagingSenderId: "178127940820",
     appId: "1:178127940820:web:4c278ef4b335eac863df41",
-    measurementId: "G-22W8SH19HM"
+    measurementId: "G-B9B24Q8PYC"
   }
 };

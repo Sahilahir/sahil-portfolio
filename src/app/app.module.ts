@@ -5,9 +5,6 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-// import * as firebase from 'firebase/app';
-
-
 
 
 
@@ -18,18 +15,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './home/home.component';
 
 import { ProjectsComponent } from './projects/projects.component';
-import { BlogComponent } from './blog/blog.component';
-
-
-// firebase.initializeApp(environment.firebase)
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutmeComponent,
     HomeComponent,
-    ProjectsComponent,
-    BlogComponent
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

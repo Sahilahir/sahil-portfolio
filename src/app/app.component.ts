@@ -1,13 +1,11 @@
-import { Component, AfterViewInit } from '@angular/core';
-
-import * as firebase from 'firebase/analytics';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements AfterViewInit {
+export class AppComponent {
   title = 'sahil-portfolio';
 
   downloadFile(){
@@ -15,10 +13,5 @@ export class AppComponent implements AfterViewInit {
     link.download = "sahil-resume";
     link.href = "../assets/sahil-Resume.pdf";
     link.click();
-}
-
-ngAfterViewInit(){
-  firebase.analytics.lo
-  
 }
 }
