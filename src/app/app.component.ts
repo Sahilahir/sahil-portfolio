@@ -15,8 +15,8 @@ export class AppComponent {
 
   downloadFile(){
     let link = document.createElement("a");
-    link.download = "sahil-resume";
-    link.href = "../assets/sahil-Resume.pdf";
+    link.download = "sahil_ahir-resume";
+    link.href = "../assets/SAHIL_AHIR_RESUME.pdf";
     link.click();
 }
   
